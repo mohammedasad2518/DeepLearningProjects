@@ -2,15 +2,15 @@
 
 # 🧠 Deep Learning Projects
 
-### A Professional Collection of Deep Learning, Neural Networks, Computer Vision, NLP & AI Applications
+### Practical Implementations of Neural Networks, CNNs, RNNs, LSTMs, Transfer Learning & Advanced Deep Learning Architectures
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep-Learning-E53935?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras)
-![Computer Vision](https://img.shields.io/badge/Computer-Vision-1976D2?style=for-the-badge)
-![Neural Networks](https://img.shields.io/badge/Neural-Networks-8E24AA?style=for-the-badge)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep-Learning-E53935?style=for-the-badge)
+![CNN](https://img.shields.io/badge/CNN-Computer%20Vision-1976D2?style=for-the-badge)
+![RNN](https://img.shields.io/badge/RNN-Sequence%20Models-8E24AA?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
@@ -18,26 +18,87 @@
 
 # 📖 About
 
-**DeepLearningProjects** is a curated repository containing practical deep learning implementations, neural network architectures, and AI applications built using Python and modern deep learning frameworks.
+**Deep Learning Projects** is a collection of hands-on implementations exploring fundamental and advanced concepts in Deep Learning.
 
-The repository demonstrates the complete deep learning workflow—from data preprocessing and model development to training, evaluation, optimization, and inference. It includes projects in Computer Vision, Natural Language Processing (NLP), image classification, transfer learning, and advanced neural network architectures.
+The repository focuses on understanding how different neural network architectures work through practical experiments and mini-projects. It covers **Convolutional Neural Networks, Recurrent Neural Networks, LSTM, GRU, Transfer Learning, Hyperparameter Tuning, Functional API, Wide & Deep Networks, Deep & Cross Networks, and Time Series Modelling**.
 
-Whether you're a student learning deep learning or a developer building AI applications, this repository provides practical examples and reusable implementations.
+Each notebook is designed to provide practical experience with model architecture, training, evaluation, and experimentation.
 
 ---
 
-# 🚀 Repository Highlights
+# 🚀 Projects & Implementations
 
-- 🧠 Artificial Neural Networks (ANN)
-- 🖼️ Image Classification
-- 👁️ Computer Vision
-- 📷 Image Processing
-- 💬 Natural Language Processing
-- 🔄 Transfer Learning
-- 🎯 Model Evaluation
-- ⚡ GPU-Compatible Training
-- 📈 Performance Visualization
-- 🚀 End-to-End Deep Learning Projects
+| Project | Description |
+|---|---|
+| 🖼️ **LeNet - MNIST** | Implementation of the classic LeNet architecture for handwritten digit classification |
+| 🖼️ **LeNet - CIFAR-10** | CNN-based image classification using the CIFAR-10 dataset |
+| 🔄 **LSTM & Bidirectional RNN** | Sequence modelling using LSTM and Bidirectional RNN architectures |
+| 🔧 **Hyperparameter Tuning** | Experimentation with model hyperparameters to improve performance |
+| 📈 **Time Series Modelling** | Deep learning approaches for modelling sequential time-series data |
+| 🔁 **Transfer Learning** | Reusing pretrained models for solving new deep learning tasks |
+| 🧩 **Wide, Deep & Cross Networks** | Exploration of advanced neural architectures for learning complex feature relationships |
+
+---
+
+# 🧠 Topics Covered
+
+## 🖼️ Convolutional Neural Networks
+
+- CNN Architecture
+- Convolution Layers
+- Pooling
+- Feature Extraction
+- Image Classification
+- LeNet Architecture
+- MNIST Classification
+- CIFAR-10 Classification
+
+---
+
+## 🔄 Recurrent Neural Networks
+
+- RNN Architecture
+- Sequential Data
+- Bidirectional RNN
+- LSTM
+- GRU
+- Sequence Modelling
+
+---
+
+## 🔧 Model Optimization
+
+- Hyperparameter Tuning
+- Model Configuration
+- Training Optimization
+- Performance Evaluation
+
+---
+
+## 🔁 Transfer Learning
+
+- Pretrained Models
+- Feature Extraction
+- Fine-Tuning
+- Reusing Learned Representations
+
+---
+
+## 📈 Time Series Modelling
+
+- Sequential Data
+- Time-Series Patterns
+- Temporal Dependencies
+- Deep Learning for Forecasting
+
+---
+
+## 🧩 Advanced Architectures
+
+- Functional API
+- Wide & Deep Networks
+- Deep & Cross Networks
+- Feature Interaction Learning
 
 ---
 
@@ -45,57 +106,43 @@ Whether you're a student learning deep learning or a developer building AI appli
 
 ```text
 DeepLearningProjects/
-
-├── Artificial Neural Networks/
-├── Computer Vision/
-├── CNN/
-├── RNN/
-├── LSTM/
-├── Transformers/
-├── NLP/
-├── Image Classification/
-├── Object Detection/
-├── Transfer Learning/
-├── Datasets/
-├── Models/
-├── Notebooks/
-├── Images/
-├── requirements.txt
+│
+├── HyperparameterTuning.ipynb
+├── LSTM_BidirectionalRNN.ipynb
+├── LeNet_CIFAR10.ipynb
+├── LeNet_MNIST.ipynb
+├── TimeSeriesModelling.ipynb
+├── Transfer Learning.ipynb
+├── WideDeepCrossNetworks.ipynb
+│
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠️ Technologies & Tools
 
-## Programming
+### Programming
 
 - Python
 
-## Deep Learning Frameworks
+### Deep Learning
 
 - TensorFlow
 - Keras
-- PyTorch
 
-## Computer Vision
-
-- OpenCV
-- Pillow
-
-## Data Analysis
+### Data Processing
 
 - NumPy
 - Pandas
 
-## Visualization
+### Visualization
 
 - Matplotlib
 - Seaborn
-- Plotly
 
-## Development Tools
+### Development
 
 - Jupyter Notebook
 - VS Code
@@ -104,164 +151,118 @@ DeepLearningProjects/
 
 ---
 
-# 📚 Topics Covered
+# 🔄 Deep Learning Workflow
 
-## 🧠 Neural Networks
-
-- Artificial Neural Networks (ANN)
-- Deep Neural Networks (DNN)
-- Activation Functions
-- Backpropagation
-- Optimizers
-
----
-
-## 👁️ Computer Vision
-
-- Image Classification
-- Face Detection
-- Object Detection
-- Image Segmentation
-- Feature Extraction
-
----
-
-## 🖼️ Convolutional Neural Networks (CNN)
-
-- CNN Architecture
-- Image Recognition
-- Feature Maps
-- Pooling Layers
-- Transfer Learning
-
----
-
-## 🔄 Recurrent Neural Networks (RNN)
-
-- Sequential Data
-- Time-Series Prediction
-- Text Processing
-
----
-
-## 📈 Long Short-Term Memory (LSTM)
-
-- Sequence Prediction
-- Language Modeling
-- Forecasting
-- Sentiment Analysis
-
----
-
-## 🤖 Transformer Models
-
-- Attention Mechanism
-- Text Generation
-- Language Understanding
-- Modern NLP Architectures
-
----
-
-# 🔄 Deep Learning Pipeline
-
-1. Data Collection
-2. Data Cleaning
-3. Data Preprocessing
-4. Data Augmentation
-5. Model Architecture
-6. Training
-7. Validation
-8. Hyperparameter Tuning
-9. Model Evaluation
-10. Inference & Deployment
-
----
-
-# ✨ Features
-
-- Modular Code Structure
-- Real-World Datasets
-- GPU-Compatible Models
-- Performance Metrics
-- Visualization Support
-- Well-Documented Notebooks
-- Beginner to Advanced Projects
-- Production-Oriented Implementations
-
----
-
-# 📊 Skills Demonstrated
-
-- Neural Network Design
-- Computer Vision
-- Natural Language Processing
-- Model Optimization
-- Transfer Learning
-- Feature Engineering
-- Deep Learning Workflows
-- AI Model Development
-- Performance Evaluation
-
----
-
-# 🚀 Getting Started
-
-Clone the repository
-
-```bash
-git clone https://github.com/mohammedasad2518/DeepLearningProjects.git
-```
-
-Navigate into the project
-
-```bash
-cd DeepLearningProjects
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-or run a project
-
-```bash
-python app.py
+```text
+             Dataset
+                │
+                ▼
+        Data Preprocessing
+                │
+                ▼
+        Model Architecture
+                │
+                ▼
+          Model Training
+                │
+                ▼
+        Hyperparameter Tuning
+                │
+                ▼
+          Model Evaluation
+                │
+                ▼
+             Results
 ```
 
 ---
 
 # 🎯 Learning Objectives
 
-This repository helps you learn:
+This repository was created to develop practical understanding of:
 
-- Deep Learning Fundamentals
-- Neural Network Design
-- CNN & RNN Architectures
+- Neural Network architectures
+- CNN-based image classification
+- Sequential modelling
+- RNN, LSTM and GRU architectures
 - Transfer Learning
-- Computer Vision
-- Natural Language Processing
-- Model Optimization
-- End-to-End AI Development
+- Hyperparameter optimization
+- Time-series modelling
+- Functional API
+- Feature interaction networks
+- Deep Learning experimentation
 
 ---
 
-# 🌟 Future Enhancements
+# 📊 Datasets
 
-- Vision Transformers (ViT)
-- Diffusion Models
-- GAN Projects
-- Speech Recognition
-- Large Language Models (LLMs)
-- Reinforcement Learning
-- MLOps Pipelines
-- Cloud Deployment
+The projects use datasets appropriate to the individual implementations, including:
+
+- **MNIST** — Handwritten digit classification
+- **CIFAR-10** — Image classification
+- Time-series datasets for sequential modelling
+- Dataset-specific resources for transfer learning experiments
+
+---
+
+# 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mohammedasad2518/DeepLearningProjects.git
+```
+
+### 2. Navigate to the repository
+
+```bash
+cd DeepLearningProjects
+```
+
+### 3. Install dependencies
+
+```bash
+pip install tensorflow keras numpy pandas matplotlib seaborn jupyter
+```
+
+### 4. Start Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open any `.ipynb` file and execute the cells to explore the implementation.
+
+---
+
+# 📚 What I Learned
+
+Through these projects, I developed hands-on experience with:
+
+- Designing neural network architectures
+- Building CNNs for image classification
+- Working with sequential data
+- Implementing RNN, LSTM and GRU models
+- Applying Transfer Learning
+- Performing hyperparameter experiments
+- Working with time-series data
+- Understanding advanced neural network architectures
+- Evaluating and improving deep learning models
+
+---
+
+# 🌱 Future Development
+
+The repository will continue to expand with more advanced Deep Learning implementations, including:
+
+- Vision Transformers
+- Generative Adversarial Networks
+- Autoencoders
+- Object Detection
+- Image Segmentation
+- Advanced NLP architectures
+- Transformers
+- Generative AI
+- Deep Learning deployment
 
 ---
